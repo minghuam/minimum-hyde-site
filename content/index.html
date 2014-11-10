@@ -1,0 +1,15 @@
+---
+extends: base.j2
+title: Home
+description: Splash page
+---
+
+{% block content %}
+{% filter markdown|typogrify -%}
+
+This is the splash page.
+
+This starter template is created by [Minghuang Ma](http://www.minghuangma.com).
+
+{%- endfilter %}
+{% endblock %}

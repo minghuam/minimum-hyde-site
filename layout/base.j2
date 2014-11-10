@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>{% block page_title %}Minghuang Ma | {{ resource.meta.title }}{% endblock %}</title>
+		<link rel="stylesheet" href="{{ media_url('css/style.css') }}"/>
+	</head>
+
+	<body>
+
+		<div id="header">
+			<h1><a href="/">My Minimum Website</a></h1>
+		</div>
+
+		<div id="navigation">
+			<!--
+			{% for item in menu %}
+			<a title="{{ item.description }}" href="{{ content_url(item.url) }}">
+				{{ item.name }}
+			</a>
+			{% endfor %}
+			-->
+			/<a href="/blog">blog</a>
+			/<a href="/about.html">about</a>
+		</div>
+
+		<div id="content">
+			{% block content %}{% endblock %}
+		</div>
+
+		<div id="footer">
+			<p>Made with <a href="http://www.python.org">Python</a> and <a href="https://github.com/hyde/hyde">Hyde</a></p>
+		</div>
+
+
+	</body>
+</html>

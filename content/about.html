@@ -1,0 +1,16 @@
+---
+extends: base.j2
+title: About
+description: About page
+---
+
+{% block content %}
+{% filter markdown|typogrify -%}
+
+This is the about page. 
+
+This starter template is created by [Minghuang Ma](http://www.minghuangma.com).
+
+
+{%- endfilter %}
+{% endblock %}

@@ -1,0 +1,58 @@
+body {
+  color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+  padding: 1em 10%;
+}
+
+a {
+  color: #c00000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+img {
+  max-width: 100%
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+body h1, h2, h3, h4, h5, h6{
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+#header{
+  margin: 0;
+  padding: 0;
+}
+
+#navigation{
+  padding-bottom: 0.5em;
+}
+
+#content{
+}
+
+#footer {
+  font-size: .85em;
+  font-weight: 100;
+  margin: 2em 0;
+}
+
+

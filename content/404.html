@@ -1,0 +1,11 @@
+---
+extends: base.j2
+title: 404 Page Not Found!
+description: 404 Page Not Found!
+---
+
+{% block content %}
+{% filter markdown|typogrify -%}
+#Ooops! Page Not Found!
+{%- endfilter %}
+{% endblock %}
